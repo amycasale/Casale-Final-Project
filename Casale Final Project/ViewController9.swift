@@ -26,7 +26,7 @@ class ViewController9: UIViewController {
         let paths =
             NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true)
         let docDir:String=paths[0]
-        let resultsFile:String=(docDir as NSString).appendingPathComponent("results,csv")
+        let resultsFile:String=(docDir as NSString).appendingPathComponent("results.csv")
         
         if !FileManager.default.fileExists(atPath: resultsFile) {
             FileManager.default.createFile(atPath: resultsFile,contents: nil, attributes: nil)
