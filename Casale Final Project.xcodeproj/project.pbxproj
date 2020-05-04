@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98351724245F6AF90025A47F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98351723245F6AF90025A47F /* WebKit.framework */; };
+		98351726245FA9120025A47F /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98351725245FA9120025A47F /* ViewController1.swift */; };
+		98351728245FA9780025A47F /* ViewControllerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98351727245FA9780025A47F /* ViewControllerMain.swift */; };
+		9835173E245FCD820025A47F /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9835173D245FCD820025A47F /* ViewController2.swift */; };
+		98351740245FCE2A0025A47F /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9835173F245FCE2A0025A47F /* ViewController3.swift */; };
+		98351742245FCE680025A47F /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98351741245FCE680025A47F /* ViewController4.swift */; };
+		98351744245FCEE80025A47F /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98351743245FCEE80025A47F /* ViewController5.swift */; };
+		98351746245FCF140025A47F /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98351745245FCF140025A47F /* ViewController6.swift */; };
+		98351748245FCF550025A47F /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98351747245FCF550025A47F /* ViewController7.swift */; };
+		9835174A245FCF960025A47F /* ViewController8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98351749245FCF960025A47F /* ViewController8.swift */; };
+		9835174C245FCFDC0025A47F /* ViewController9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9835174B245FCFDC0025A47F /* ViewController9.swift */; };
+		9835174E245FD0080025A47F /* ViewController10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9835174D245FD0080025A47F /* ViewController10.swift */; };
 		98F2B826245AA83B007F6E6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F2B825245AA83B007F6E6A /* AppDelegate.swift */; };
 		98F2B828245AA83B007F6E6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F2B827245AA83B007F6E6A /* SceneDelegate.swift */; };
 		98F2B82A245AA83B007F6E6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F2B829245AA83B007F6E6A /* ViewController.swift */; };
@@ -35,6 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		98351723245F6AF90025A47F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		98351725245FA9120025A47F /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		98351727245FA9780025A47F /* ViewControllerMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMain.swift; sourceTree = "<group>"; };
+		9835173D245FCD820025A47F /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		9835173F245FCE2A0025A47F /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		98351741245FCE680025A47F /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		98351743245FCEE80025A47F /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		98351745245FCF140025A47F /* ViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
+		98351747245FCF550025A47F /* ViewController7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
+		98351749245FCF960025A47F /* ViewController8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController8.swift; sourceTree = "<group>"; };
+		9835174B245FCFDC0025A47F /* ViewController9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController9.swift; sourceTree = "<group>"; };
+		9835174D245FD0080025A47F /* ViewController10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController10.swift; sourceTree = "<group>"; };
 		98F2B822245AA83B007F6E6A /* Casale Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Casale Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F2B825245AA83B007F6E6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98F2B827245AA83B007F6E6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98351724245F6AF90025A47F /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98351722245F6AF90025A47F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98351723245F6AF90025A47F /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		98F2B819245AA83B007F6E6A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +116,7 @@
 				98F2B83B245AA83C007F6E6A /* Casale Final ProjectTests */,
 				98F2B846245AA83C007F6E6A /* Casale Final ProjectUITests */,
 				98F2B823245AA83B007F6E6A /* Products */,
+				98351722245F6AF90025A47F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +137,17 @@
 				98F2B827245AA83B007F6E6A /* SceneDelegate.swift */,
 				98F2B829245AA83B007F6E6A /* ViewController.swift */,
 				98F2B82B245AA83B007F6E6A /* Main.storyboard */,
+				9835174D245FD0080025A47F /* ViewController10.swift */,
+				9835174B245FCFDC0025A47F /* ViewController9.swift */,
+				98351749245FCF960025A47F /* ViewController8.swift */,
+				98351747245FCF550025A47F /* ViewController7.swift */,
+				98351745245FCF140025A47F /* ViewController6.swift */,
+				98351743245FCEE80025A47F /* ViewController5.swift */,
+				98351741245FCE680025A47F /* ViewController4.swift */,
+				9835173F245FCE2A0025A47F /* ViewController3.swift */,
+				9835173D245FCD820025A47F /* ViewController2.swift */,
+				98351725245FA9120025A47F /* ViewController1.swift */,
+				98351727245FA9780025A47F /* ViewControllerMain.swift */,
 				98F2B82E245AA83C007F6E6A /* Assets.xcassets */,
 				98F2B830245AA83C007F6E6A /* LaunchScreen.storyboard */,
 				98F2B833245AA83C007F6E6A /* Info.plist */,
@@ -259,9 +304,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98351726245FA9120025A47F /* ViewController1.swift in Sources */,
+				9835174E245FD0080025A47F /* ViewController10.swift in Sources */,
 				98F2B82A245AA83B007F6E6A /* ViewController.swift in Sources */,
 				98F2B826245AA83B007F6E6A /* AppDelegate.swift in Sources */,
+				98351746245FCF140025A47F /* ViewController6.swift in Sources */,
+				98351742245FCE680025A47F /* ViewController4.swift in Sources */,
+				98351744245FCEE80025A47F /* ViewController5.swift in Sources */,
+				98351728245FA9780025A47F /* ViewControllerMain.swift in Sources */,
+				98351748245FCF550025A47F /* ViewController7.swift in Sources */,
 				98F2B828245AA83B007F6E6A /* SceneDelegate.swift in Sources */,
+				98351740245FCE2A0025A47F /* ViewController3.swift in Sources */,
+				9835174C245FCFDC0025A47F /* ViewController9.swift in Sources */,
+				9835173E245FCD820025A47F /* ViewController2.swift in Sources */,
+				9835174A245FCF960025A47F /* ViewController8.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
